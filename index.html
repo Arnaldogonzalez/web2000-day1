@@ -10,6 +10,16 @@
             margin: 0;
             width: 100%;
             max-width: 800px;
+            border-collapse: collapse;
+        }
+
+        td{
+            padding-top:2rem;
+            padding-bottom:2rem;
+        }
+
+        .header{
+            border-bottom: 3px solid #FFBC42;
         }
 
         .email, .phone, .web{
@@ -21,20 +31,16 @@
             display: table;
             font-size: 1.5rem;
             font-family: sans-serif;
-            border-bottom-style: solid;
-            border-bottom-color: blue;
         }
 
         .data{
             font-style: oblique;
             font-size: 1.2rem;
-            color: #FFBC42;
+            border-bottom: 2px solid #FFBC42;
         }
 
-        .obj{
-            font-style: normal;
-            font-size: 1rem;
-            color: black;
+        .objective{
+            color: #FFBC42;
         }
 
         .portfolio{
@@ -62,18 +68,18 @@
             </td>
         </tr>
         <tr class="data">
-            <td>Objective</td>
+            <td class="objective">Objective</td>
             <td>
                 <div class="obj">To find a position as a front end web developer in a company that provides room for growth.</div>
             </td>
         </tr>
-        <tr>
+        <tr class="data">
             <td class="portfolio">Portfolio</td>
             <td>
                 <div>Website Tony Falzon</div>
             </td>
         </tr>
-        <tr>
+        <tr class="data">
             <td class="skills">
                 Skills
             </td>
